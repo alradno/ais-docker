@@ -26,6 +26,7 @@ jobs:
         path: target
         retention-days: 1
 
+
   publish_in_dockerhub:
     name: Publish in DockerHub
     runs-on: ubuntu-latest
